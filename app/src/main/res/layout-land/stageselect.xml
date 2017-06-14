@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <ImageView
+        android:screenOrientation="landscape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id = "@+id/bg1"
+        android:src = "@drawable/bg1"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        />
+
+
+
+    <ImageView
+        android:screenOrientation="landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/bun1"
+        android:src = "@drawable/bun1"
+        android:layout_marginTop="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/bun2"
+        android:layout_toStartOf="@+id/bun2"
+        android:onClick="onClick"/>
+
+
+    <ImageView
+        android:screenOrientation="landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/bun2"
+        android:src = "@drawable/bun2"
+        android:onClick="onClick"
+        android:layout_alignTop="@+id/bun1"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:screenOrientation="landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/bun3"
+        android:src = "@drawable/bun3"
+        android:layout_alignTop="@+id/bun2"
+        android:layout_toRightOf="@+id/bun2"
+        android:layout_toEndOf="@+id/bun2"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:screenOrientation="landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/lock"
+        android:src = "@drawable/lock"
+        android:layout_below="@+id/bun1"
+        android:layout_alignLeft="@+id/bun1"
+        android:layout_alignStart="@+id/bun1" />
+
+    <ImageView
+        android:screenOrientation="landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/lock2"
+        android:src = "@drawable/lock"
+        android:layout_below="@+id/lock"
+        android:layout_alignLeft="@+id/lock"
+        android:layout_alignStart="@+id/lock" />
+
+    <ImageView
+        android:screenOrientation="landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/lock3"
+        android:src = "@drawable/lock"
+        android:layout_below="@+id/bun3"
+        android:layout_alignLeft="@+id/bun3"
+        android:layout_alignStart="@+id/bun3" />
+    <ImageView
+        android:screenOrientation="landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/lock4"
+        android:src = "@drawable/lock"
+        android:layout_below="@+id/bun2"
+        android:layout_toLeftOf="@+id/bun3"
+        android:layout_toStartOf="@+id/bun3" />
+    <ImageView
+        android:screenOrientation="landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/lock5"
+        android:src = "@drawable/lock"
+        android:layout_alignTop="@+id/lock6"
+        android:layout_alignLeft="@+id/lock3"
+        android:layout_alignStart="@+id/lock3" />
+    <ImageView
+        android:screenOrientation="landscape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/lock6"
+        android:src = "@drawable/lock"
+        android:layout_alignTop="@+id/lock2"
+        android:layout_toLeftOf="@+id/lock3"
+        android:layout_toStartOf="@+id/lock3" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name = "chicken_store">
+        <item>세마리 치킨</item>
+        <item>진미 통닭</item>
+        <item>구웠다 치킨</item>
+    </array>
+
+    <array name = "dongas_store">
+        <item>왕 돈가스</item>
+        <item>신하 돈가스</item>
+        <item>백정 돈가스</item>
+    </array>
+
+    <array name = "hambug_store">
+        <item>막 도날드</item>
+        <item>버거 쾅</item>
+        <item>KFCF</item>
+    </array>
+
+    <array name = "icemen_store">
+        <item>63 냉면</item>
+        <item>함흥 냉면</item>
+        <item>평양 랭면</item>
+    </array>
+
+    <array name = "jajang_store">
+        <item>광교 반점</item>
+        <item>인사만</item>
+        <item>헌경</item>
+    </array>
+
+    <array name = "kimbab_store">
+        <item>고봉만 김밥</item>
+        <item>밥풀떼기</item>
+        <item>김밥 월드</item>
+    </array>
+
+    <array name = "pigleg_store">
+        <item>원천동 왕족발</item>
+        <item>할머니 족발</item>
+        <item>아줌마 족발</item>
+    </array>
+
+    <array name = "pizza_store">
+        <item>피자 헉</item>
+        <item>미스 피자</item>
+        <item>마마이스</item>
+    </array>
+
+    <array name = "topoki_store">
+        <item>고래 떡볶이</item>
+        <item>어떨</item>
+        <item>순심이 떡볶이</item>
+    </array>
+
+</resources>
